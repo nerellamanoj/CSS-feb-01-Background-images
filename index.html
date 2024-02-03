@@ -3,25 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Back Ground Images</title>
-    <style>
-    
-body{
-    background-image: url(./2.jpg);
-    background-image: url(./2.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    opacity: 2.0;
-    width: 40%;
-}
-    
-    </style>
+    <title>Back Ground images</title>
+     <style>
+       .manoj {
+        background-color: red;
+        background-image: url(./manoj.jpeg), url(./2.jpg);
+        background-attachment: fixed fixed;
+        background-repeat: no-repeat no-repeat;
+        background-size: 200px 200px;
+        width: 200px;
+        height: 200px;
+      }
+      #kumar {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
+        position: absolute;
+        left: 8px;
+        top: 165px;
+      }
+      .nerella {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        justify-content: space-evenly;
+      } 
+     </style>
   </head>
   <body>
-    <div></div>
+     <div class="nerella">
+      <div class="manoj">
+        <h1>Manoj</h1>
+      </div>
+      <div class="manoj">
+        <h1>Manoj</h1>
+      </div>
+      <div class="manoj">
+        <h1>Manoj</h1>
+      </div>
+      <div class="manoj">
+        <h1>Manoj</h1>
+      </div>
+    </div> 
 
-    
-        
+      
+
+
   </body>
 </html>
